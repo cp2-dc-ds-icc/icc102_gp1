@@ -1,0 +1,423 @@
+<!DOCTYPE HTML>
+
+<style>
+body{
+  text-align: center;
+}
+#escondido {
+
+  display: none;
+
+}
+
+#rolagem{
+  height: 500px;
+  width: 920px;
+  overflow: scroll;
+  margin: auto;
+}
+td{
+  text-align: center;
+}
+</style>
+
+<script src="personagens.js"></script>
+
+<script>
+
+  function habilidades(personagem){
+    document.getElementById("in_passive").value = personagem.Passive;
+    document.getElementById("in_Q").value = personagem.Q;
+    document.getElementById("in_W").value = personagem.W;
+    document.getElementById("in_E").value = personagem.E;
+    document.getElementById("in_R").value = personagem.R;
+
+        document.getElementById("escondido").style.display = "block";
+  }
+
+</script>
+
+<HTML>
+<HEAD>
+  <meta charset="UTF-8">
+      <title> Campeões de League of Legends</title>
+</HEAD>
+<BODY>
+  <h1> League of Legends - Campeões</h1>
+
+
+  <div id="rolagem">
+<table>
+  <tr>
+
+              <td><img src ="Aatrox.png"></img></td>
+                <td><img src ="Ahri.png"></img></td>
+              <td><img src ="Akali.png"></img></td>
+                <td><img src ="Alistar.png"></img></td>
+                <td><img src ="Amumu.png"></img></td>
+                <td><img src="Anivia.png"></img></td>
+                <td><img src="Annie.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Aatrox" onclick="habilidades(Aatrox)"></td>
+      <td><input type="button" value="Ahri" onclick="habilidades(Ahri)"></td>
+      <td><input type="button" value="Akali" onclick="habilidades(Akali)"></td>
+      <td><input type="button" value="Alistar" onclick="habilidades(Alistar)"></td>
+      <td><input type="button" value="Amumu" onclick="habilidades(Amumu)"></td>
+      <td><input type="button" value="Anivia" onclick="habilidades(Anivia)"></td>
+      <td><input type="button" value="Annie" onclick="habilidades(Annie)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Ashe.png"></img></td>
+      <td><img src ="AurelionSol.png"></img></td>
+      <td><img src ="Azir.png"></img></td>
+      <td><img src="Bard.png"></img></td>
+      <td><img src="Blitzcrank.png"></img></td>
+      <td><img src="Brand.png"></img></td>
+      <td><img src="Braum.png"></img></td>
+    </tr>
+    <tr>
+                <td><input type="button" value="Ashe" onclick="habilidades(Ashe)"></td>
+                <td><input type="button" value="Dicionario" onclick="habilidades(AurelionSol)"></td>
+                <td><input type="button" value="Azir" onclick="habilidades(Azir)"></td>
+                <td><input type="button" value="Bardo" onclick="habilidades(Bardo)"></td>
+                <td><input type="button" value="Blitzcrank" onclick="habilidades(Blitzcrank)"></td>
+                <td><input type="button" value="Brand" onclick="habilidades(Brand)"></td>
+                <td><input type="button" value="Braum" onclick="habilidades(Braum)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Caitlyn.png"></td>
+      <td><img src ="Cassiopeia.png"></img></td>
+      <td><img src ="Chogath.png"></img></td>
+      <td><img src ="Corki.png"></img></td>
+      <td><img src ="Darius.png"></img></td>
+      <td><img src ="Diana.png"></img></td>
+      <td><img src ="DrMundo.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Cassiopeia" onclick="habilidades(Cassiopeia)"></td>
+      <td><input type="button" value="Chogath" onclick="habilidades(Chogath)"></td>
+      <td><input type="button" value="Corki" onclick="habilidades(Corki)"></td>
+      <td><input type="button" value="Darius" onclick="habilidades(Darius)"></td>
+      <td><input type="button" value="Diana" onclick="habilidades(Diana)"></td>
+      <td><input type="button" value="Caitlyn" onclick="habilidades(Caitlyn)"></td>
+      <td><input type="button" value="DrMundo" onclick="habilidades(DrMundo)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Draven.png"></img></td>
+      <td><img src ="Ekko.png"></img></td>
+      <td><img src ="Elise.png"></img></td>
+      <td><img src ="Evelynn.png"></img></td>
+      <td><img src ="Ezreal.png"></img></td>
+      <td><img src ="FiddleSticks.png"></img></td>
+      <td><img src ="Fiora.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Draven" onclick="habilidades(Draven)"></td>
+      <td><input type="button" value="Ekko" onclick="habilidades(Ekko)"></td>
+      <td><input type="button" value="Elise" onclick="habilidades(Elise)"></td>
+      <td><input type="button" value="Evelynn" onclick="habilidades(Evelynn)"></td>
+      <td> <input type="button" value="Ezreal" onclick="habilidades(Ezreal)"></td>
+      <td><input type="button" value="FiddleSticks" onclick="habilidades(FiddleSticks)"></td>
+      <td><input type="button" value="Fiora" onclick="habilidades(Fiora)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Fizz.png"></img></td>
+      <td><img src ="Galio.png"></img></td>
+      <td><img src ="Gangplank.png"></img></td>
+      <td><img src ="Garen.png"></img></td>
+      <td><img src ="Gnar.png"></img></td>
+      <td><img src ="Gragas.png"></img></td>
+      <td><img src ="Graves.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Fizz" onclick="habilidades(Fizz)"></td>
+      <td><input type="button" value="Galio" onclick="habilidades(Galio)"></td>
+      <td><input type="button" value="Gangplank" onclick="habilidades(Gangplank)"></td>
+      <td><input type="button" value="Garen" onclick="habilidades(Garen)"></td>
+      <td><input type="button" value="Gnar" onclick="habilidades(Gnar)"></td>
+      <td><input type="button" value="Gragas" onclick="habilidades(Gragas)"></td>
+      <td><input type="button" value="Graves" onclick="habilidades(Graves)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Hecarim.png"></img></td>
+      <td><img src ="Heimerdinger.png"></img></td>
+      <td><img src ="Illaoi.png"></img></td>
+      <td><img src ="Irelia.png"></img></td>
+      <td><img src ="Janna.png"></img></td>
+      <td><img src ="JarvanIV.png"></img></td>
+      <td><img src ="Jax.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Hecarim" onclick="habilidades(Hecarim)"></td>
+      <td><input type="button" value="Heimerdinger" onclick="habilidades(Heimerdinger)"></td>
+      <td><input type="button" value="Illaoi" onclick="habilidades(Illaoi)"></td>
+      <td><input type="button" value="Irelia" onclick="habilidades(Irelia)"></td>
+      <td><input type="button" value="Janna" onclick="habilidades(Janna)"></td>
+      <td><input type="button" value="JarvanIV" onclick="habilidades(JarvanIV)"></td>
+      <td><input type="button" value="Jax" onclick="habilidades(Jax)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Jayce.png"></img></td>
+      <td><img src ="Jhin.png"></img></td>
+      <td><img src ="Jinx.png"></img></td>
+      <td><img src ="Kalista.png"></img></td>
+      <td><img src ="Karma.png"></img></td>
+      <td><img src ="Karthus.png"></img></td>
+      <td><img src ="Kassadin.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Jayce" onclick="habilidades(Jayce)"></td>
+      <td><input type="button" value="Jhin" onclick="habilidades(Jhin)"></td>
+      <td><input type="button" value="Jinx" onclick="habilidades(Jinx)"></td>
+      <td><input type="button" value="Kalista" onclick="habilidades(Kalista)"></td>
+      <td><input type="button" value="Karma" onclick="habilidades(Karma)"></td>
+      <td><input type="button" value="Karthus" onclick="habilidades(Karthus)"></td>
+      <td><input type="button" value="Kassadin" onclick="habilidades(Kassadin)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Katarina.png"></img></td>
+      <td><img src ="Kayle.png"></img></td>
+      <td><img src ="Kennen.png"></img></td>
+      <td><img src ="KhaZix.png"></img></td>
+      <td><img src ="Kindred.png"></img></td>
+      <td><img src ="Kled.png"></img></td>
+      <td><img src ="KogMaw.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Katarina" onclick="habilidades(Katarina)"></td>
+      <td><input type="button" value="Kayle" onclick="habilidades(Kayle)"></td>
+      <td><input type="button" value="Kennen" onclick="habilidades(Kennen)"></td>
+      <td><input type="button" value="KhaZix" onclick="habilidades(KhaZix)"></td>
+      <td><input type="button" value="Kindred" onclick="habilidades(Kindred)"></td>
+      <td><input type="button" value="Kled" onclick="habilidades(Kled)"></td>
+      <td><input type="button" value ="KogMaw" onclick="habilidades(KogMaw)"></td>
+    </tr>
+    <tr>
+      <td><img src ="LeBlanc.png"></img></td>
+      <td><img src ="LeeSin.png"></img></td>
+      <td><img src ="Leona.png"></img></td>
+      <td><img src ="Lissandra.png"></img></td>
+      <td><img src ="Lucian.png"></img></td>
+      <td><img src ="Lulu.png"></img></td>
+      <td><img src ="Lux.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value ="LeBlanc" onclick ="habilidades(LeBlanc)"></td>
+      <td><input type="button" value ="LeeSin" onclick ="habilidades(LeeSin)"></td>
+      <td><input type="button" value ="Leona" onclick ="habilidades(Leona)"></td>
+      <td><input type="button" value ="Lissandra" onclick ="habilidades(Lissandra)"></td>
+      <td><input type="button" value ="Lucian" onclick ="habilidades(Lucian)"></td>
+      <td><input type="button" value ="Lulu" onclick ="habilidades(Lulu)"></td>
+      <td><input type="button" value ="Lux" onclick ="habilidades(Lux)"><td>
+
+    <tr>
+      <td><img src ="Malphite.png"></img></td>
+      <td><img src ="Malzahar.png"></img></td>
+      <td><img src ="Maokai.png"></img></td>
+      <td><img src ="MasterYi.png"></img></td>
+      <td><img src ="MissFortune.png"></img></td>
+      <td><img src ="Mordekaiser.png"></img></td>
+      <td><img src ="Morgana.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Malphite" onclick="habilidades(Malphite)"></td>
+      <td><input type="button" value="Malzahar" onclick="habilidades(Malzahar)"></td>
+      <td><input type="button" value="Maokai" onclick="habilidades(Maokai)"></td>
+      <td><input type="button" value="MasterYi" onclick="habilidades(MasterYi)"></td>
+      <td><input type="button" value="MissFortune" onclick="habilidades(MissFortune)"></td>
+      <td><input type="button" value="Mordekaiser" onclick="habilidades(Mordekaiser)"></td>
+      <td><input type="button" value="Morgana" onclick="habilidades(Morgana)"></td>
+
+    </tr>
+    <tr>
+      <td><img src ="Nami.png"></img></td>
+      <td><img src ="Nasus.png"></img></td>
+      <td><img src ="Nautilus.png"></img></td>
+      <td><img src ="Nidalee.png"></img></td>
+      <td><img src ="Nocturne.png"></img></td>
+      <td><img src ="Nunu.png"></img></td>
+      <td><img src ="Olaf.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Nami" onclick="habilidades(Nami)"></td>
+      <td><input type="button" value="Nasus" onclick="habilidades(Nasus)"></td>
+      <td><input type="button" value="Nautilus" onclick="habilidades(Nautilus)"></td>
+      <td><input type="button" value="Nidalee" onclick="habilidades(Nidalee)"></td>
+      <td><input type="button" value="Nocturne" onclick="habilidades(Nocturne)"></td>
+      <td><input type="button" value="Nunu" onclick="habilidades(Nunu)"></td>
+      <td><input type="button" value="Olaf" onclick="habilidades(Olaf)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Orianna.png"></img></td>
+      <td><img src ="Pantheon.png"></img></td>
+      <td><img src ="Poppy.png"></img></td>
+      <td><img src ="Quinn.png"></img></td>
+      <td><img src ="Rammus.png"></img></td>
+      <td><img src ="RekSai.png"></img></td>
+      <td><img src ="Renekton.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Orianna" onclick="habilidades(Orianna)"></td>
+      <td><input type="button" value="Pantheon" onclick="habilidades(Pantheon)"></td>
+      <td><input type="button" value="Poppy" onclick="habilidades(Poppy)"></td>
+      <td><input type="button" value="Quinn" onclick="habilidades(Quinn)"></td>
+      <td><input type="button" value="Rammus" onclick="habilidades(Rammus)"></td>
+      <td><input type="button" value="RekSai" onclick="habilidades(RekSai)"></td>
+      <td><input type="button" value="Renekton" onclick="habilidades(Renekton)"></td>
+    </tr>
+    <tr>
+      <td><img src ="Rengar.png"></img></td>
+      <td><img src ="Riven.png"></img></td>
+      <td><img src ="Rumble.png"></img></td>
+      <td><img src ="Ryze.png"></img></td>
+      <td><img src ="Sejuani.png"></img></td>
+      <td><img src ="Shaco.png"></img></td>
+            <td><img src ="Shen.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Rengar" onclick="habilidades(Rengar)"></td>
+      <td><input type="button" value="Riven" onclick="habilidades(Riven)"></td>
+      <td><input type="button" value="Rumble" onclick="habilidades(Rumble)"></td>
+      <td><input type="button" value="Ryze" onclick="habilidades(Ryze)"></td>
+      <td><input type="button" value="Sejuani" onclick="habilidades(Sejuani)"></td>
+      <td><input type="button" value="Shaco" onclick="habilidades(Shaco)"></td>
+      <td><input type="button" value="Shen" onclick="habilidades(Shen)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Shyvana.png"></img></td>
+      <td><img src ="Singed.png"></img></td>
+      <td><img src ="Sion.png"></img></td>
+      <td><img src ="Sivir.png"></img></td>
+      <td><img src ="Skarner.png"></img></td>
+      <td><img src ="Sona.png"></img></td>
+      <td><img src ="Soraka.png"></img></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" value="Shyvana" onclick="habilidades(Shyvana)"></td>
+      <td><input type="button" value="Singed" onclick="habilidades(Singed)"></td>
+      <td><input type="button" value="Sion" onclick="habilidades(Sion)"></td>
+      <td><input type="button" value="Sivir" onclick="habilidades(Sivir)"></td>
+      <td><input type="button" value="Skarner" onclick="habilidades(Skarner)"></td>
+      <td><input type="button" value="Sona" onclick="habilidades(Sona)"></td>
+      <td><input type="button" value="Soraka" onclick="habilidades(Soraka)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Swain.png"></img></td>
+      <td><img src ="Syndra.png"></img></td>
+      <td><img src ="Tahmkench.png"></img></td>
+      <td><img src ="Taliyah.png"></img></td>
+      <td><img src ="Talon.png"></img></td>
+      <td><img src ="Taric.png"></img></td>
+      <td><img src ="Teemo.png"></img></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" value="Swain" onclick="habilidades(Swain)"></td>
+      <td><input type="button" value="Syndra" onclick="habilidades(Syndra)"></td>
+      <td><input type="button" value="Tahmkench" onclick="habilidades(Tahmkench)"></td>
+      <td><input type="button" value="Taliyah" onclick="habilidades(Taliyah)"></td>
+      <td><input type="button" value="Talon" onclick="habilidades(Talon)"></td>
+      <td><input type="button" value="Taric" onclick="habilidades(Taric)"></td>
+      <td><input type="button" value="Teemo" onclick="habilidades(Teemo)"></td>
+    </tr>
+
+    <tr>
+      <td><img src ="Thresh.png"></img></td>
+      <td><img src ="Tristana.png"></img></td>
+      <td><img src ="Trundle.png"></img></td>
+      <td><img src ="Tryndamere.png"></img></td>
+      <td><img src ="TwistedFate.png"></img></td>
+      <td><img src ="Twitch.png"></img></td>
+      <td><img src ="Udyr.png"></img></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Thresh" onclick="habilidades(Thresh)"></td>
+      <td><input type="button" value="Tristana" onclick="habilidades(Tristana)"></td>
+      <td><input type="button" value="Trundle" onclick="habilidades(Trundle)"></td>
+      <td><input type="button" value="Tryndamere" onclick="habilidades(Tryndamere)"></td>
+      <td><input type="button" value="TwistedFate" onclick="habilidades(TwistedFate)"></td>
+      <td><input type="button" value="Twitch" onclick="habilidades(Twitch)"></td>
+      <td><input type="button" value="Udyr" onclick="habilidades(Udyr)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Urgot.png"></img></td>
+      <td><img src ="Varus.png"></img></td>
+      <td><img src ="Vayne.png"></img></td>
+      <td><img src ="Veigar.png"></img></td>
+      <td><img src ="Velkoz.png"></img></td>
+      <td><img src ="Vi.png"></img></td>
+      <td><img src ="Viktor.png"></img></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" value="Urgot" onclick="habilidades(Urgot)"></td>
+      <td><input type="button" value="Varus" onclick="habilidades(Varus)"></td>
+      <td><input type="button" value="Vayne" onclick="habilidades(Vayne)"></td>
+      <td><input type="button" value="Veigar" onclick="habilidades(Veigar)"></td>
+      <td><input type="button" value="Velkoz" onclick="habilidades(Velkoz)"></td>
+      <td><input type="button" value="Vi" onclick="habilidades(Vi)"></td>
+      <td><input type="button" value="Viktor" onclick="habilidades(Viktor)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Vladimir.png"></img></td>
+      <td>  <img src ="Volibear.png"></img></td>
+      <td><img src ="Warwick.png"></img></td>
+      <td><img src ="MonkeyKing.png"></img></td>
+      <td><img src ="Xerath.png"></img></td>
+      <td><img src ="XinZhao.png"></img></td>
+      <td><img src ="Yasuo.png"></img></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" value="Vladimir" onclick="habilidades(Vladimir)"></td>
+      <td><input type="button" value="Volibear" onclick="habilidades(Volibear)"></td>
+      <td><input type="button" value="Warwick" onclick="habilidades(Warwick)"></td>
+      <td><input type="button" value="Wukong" onclick="habilidades(Wukong)"></td>
+      <td><input type="button" value="Xerath" onclick="habilidades(Xerath)"></td>
+      <td><input type="button" value="XinZhao" onclick="habilidades(XinZhao)"></td>
+      <td><input type="button" value="Yasuo" onclick="habilidades(Yasuo)"></td>
+    </tr>
+    <tr>
+
+      <td><img src ="Yorick.png"></img></td>
+      <td><img src ="Zac.png"></img></td>
+      <td><img src ="Zed.png"></img></td>
+      <td><img src ="Ziggs.png"></img></td>
+      <td><img src ="Zilean.png"></img></td>
+      <td><img src ="Zyra.png"></img></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" value="Yorick" onclick="habilidades(Yorick)"></td>
+      <td><input type="button" value="Zac" onclick="habilidades(Zac)"></td>
+      <td><input type="button" value="Zed" onclick="habilidades(Zed)"></td>
+      <td><input type="button" value="Ziggs" onclick="habilidades(Ziggs)"></td>
+      <td><input type="button" value="Zilean" onclick="habilidades(Zilean)"></td>
+      <td><input type="button" value="Zyra" onclick="habilidades(Zyra)"></td>
+    </tr>
+
+</table>
+
+              </div>
+
+<br><br>
+              <div id="escondido">
+                <input type=text disabled id="in_passive"><br>
+                <input type=text disabled id="in_Q"><br>
+                <input type=text disabled id="in_W"><br>
+                <input type=text disabled id="in_E"><br>
+                <input type=text disabled id="in_R"><br>
+              </div>
+
+
+
+
+</BODY>
+</HTML>
