@@ -1,7 +1,0 @@
-aatrox = {
-  "Passive": "Poço de Sangue: Ao usar uma habilidade que tenha custo de vida, Aatrox armazena o dano autoinfligido no Poço de Sangue. Ao receber o dano letal, Aatrox extrai o sangue atual do Poço e o recupera em forma de Vida ao longo de uma breve duração. Além disso, Aatrox recebe 1% de Velocidade de Ataque para cada 2% de sangeu que houver no Poço." ,
-  "Q": "Voo Sombrio: Aatrox levanta voo e se joga em um local alvo, causando dano e lançando ao ar inimigos no centro do impacto.",
-  "W": "Sede de Sangue/Preço em Sangue: Enquanto ativada, a cada terceiro ataque, Aatrox causa dano adicional ao custo de sua própria Vida.",
-  "E":  "Lâminas da Aflição: Aatrox desfere o poder de sua espada, causando dano e redução de velocidade aos inimigos atingidos." ,
-  "R":"Massacre; Aatrox colhe o sangue das suas vítimas, causando dano a todos os campeões inimigos ao seu redor e recebendo aumento de Velocidade de Ataque e de Alcance de Ataque por um curto período."
-}
