@@ -1,6 +1,13 @@
 <html>
-
 	<body>
-		Exemplo
+		<h1> Exemplo </h1>
 	</body>
 </html>
+
+<style>
+
+h1 {
+color: red;
+}
+
+</style>
