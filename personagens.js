@@ -103,6 +103,13 @@ Caitlyn={
 "E":"Rede Calibre 90:",
 "R":"Ás na Manga:"
 }
+Camille={
+"Passive":"Defesa Adaptativa",
+"Q":"Protocolo de Precisão",
+"W":"Varredura Tática",
+"E":"Disparo de Gancho",
+"R":"Ultimato Hextec"
+}
 Cassiopeia={
 "Passive":"Graça Serpentina:",
 "Q":"Explosão Venenosa:",
@@ -270,6 +277,13 @@ Irelia={
 "W":"Estilo Hiten:",
 "E":"Ataque do Equilíbrio:",
 "R":"Lâminas Transcedentais:"
+}
+Ivern={
+"Passive":"Amigo da Floresta",
+"Q":"Encantador de Raízes",
+"W":"Formação de Arbustos",
+"E":"Semente Engatilhada",
+"R":"Margarida!"
 }
 Janna={
 "Passive":"Brisa de impulso:",
