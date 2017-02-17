@@ -8,13 +8,10 @@ body{
 
 
 
-#escondido input{
-height:40px;
-width: 200px;
-font-family: courier;
 
-}
+
 #escondido {
+
 
 display:none;
   margin-left: 670px;
@@ -38,11 +35,11 @@ td{
 <script>
 
   function habilidades(personagem){
-    document.getElementById("in_passive").value = personagem.Passive;
-    document.getElementById("in_Q").value = personagem.Q;
-    document.getElementById("in_W").value = personagem.W;
-    document.getElementById("in_E").value = personagem.E;
-    document.getElementById("in_R").value = personagem.R;
+    document.getElementById("in_passive").innerHTML = personagem.Passive;
+    document.getElementById("in_Q").innerHTML = personagem.Q;
+    document.getElementById("in_W").innerHTML = personagem.W;
+    document.getElementById("in_E").innerHTML = personagem.E;
+    document.getElementById("in_R").innerHTML = personagem.R;
 
         document.getElementById("escondido").style.display = "block";
   }
@@ -480,14 +477,11 @@ td{
 
 <br><br>
               <div id="escondido">
-                <input type=text  disabled id="in_passive"><br>
-                <input type=text disabled id="in_Q"><br>
-                <input type=text  disabled id="in_W"><br>
-                <input type=text  disabled id="in_E"><br>
-                <input type=text disabled id="in_R"><br>
-                <video width="250" height="150" controls>
-                <source src ="rito.mp4" type="video/mp4">
-                </video>
+                <span id="in_passive"></span><br>
+                <span id="in_Q"></span><br>
+                <span id="in_W"></span><br>
+                <span id="in_E"></span><br>
+                <span id="in_R"></span><br>
               </div>
 
 
