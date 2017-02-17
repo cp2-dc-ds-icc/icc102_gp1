@@ -105,3 +105,6 @@ function exibeTimes(item) {
   document.getElementById("reservas_times").innerHTML = item.Reservas;
   document.getElementById("técnico_times").innerHTML = item.Técnico;
 }
+
+var eoq = getParameterByName('eoq');
+exibeDetalhes(TimesCBloiro[eoq]);
